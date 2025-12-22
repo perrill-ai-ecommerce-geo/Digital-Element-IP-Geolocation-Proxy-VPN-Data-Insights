@@ -1,0 +1,83 @@
+[
+  {
+    "description": "Standard Residential Connection",
+    "ip_address": "192.0.2.1",
+    "geolocation": {
+      "country": "United States",
+      "country_code": "US",
+      "region": "California",
+      "city": "Mountain View",
+      "postal_code": "94043",
+      "dma": "807",
+      "latitude": 37.386,
+      "longitude": -122.083
+    },
+    "connection_intelligence": {
+      "asn": 15169,
+      "isp": "Google LLC",
+      "connection_type": "broadband",
+      "connection_speed": "high",
+      "home_biz": "home"
+    },
+    "proxy_insights": {
+      "is_proxy": false,
+      "proxy_type": "none",
+      "is_vpn": false,
+      "is_tor": false,
+      "vpn_provider": "none"
+    }
+  },
+  {
+    "description": "High-Risk VPN Exit Node",
+    "ip_address": "203.0.113.42",
+    "geolocation": {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "region": "North Holland",
+      "city": "Amsterdam",
+      "postal_code": "1012",
+      "dma": null,
+      "latitude": 52.370,
+      "longitude": 4.890
+    },
+    "connection_intelligence": {
+      "asn": 60068,
+      "isp": "Datacenter Provider X",
+      "connection_type": "oc3",
+      "connection_speed": "ultra-high",
+      "home_biz": "biz"
+    },
+    "proxy_insights": {
+      "is_proxy": true,
+      "proxy_type": "vpn",
+      "is_vpn": true,
+      "vpn_provider": "Generic-No-Log-Provider",
+      "proxy_level": "anonymous"
+    }
+  },
+  {
+    "description": "Mobile Carrier Intelligence",
+    "ip_address": "198.51.100.99",
+    "geolocation": {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "region": "England",
+      "city": "London",
+      "postal_code": "EC1A",
+      "latitude": 51.507,
+      "longitude": -0.127
+    },
+    "connection_intelligence": {
+      "asn": 12576,
+      "isp": "EE Limited",
+      "connection_type": "mobile",
+      "carrier_id": "ee-uk",
+      "mobile_country_code": "234",
+      "mobile_network_code": "30"
+    },
+    "proxy_insights": {
+      "is_proxy": false,
+      "is_vpn": false
+    }
+  }
+]
