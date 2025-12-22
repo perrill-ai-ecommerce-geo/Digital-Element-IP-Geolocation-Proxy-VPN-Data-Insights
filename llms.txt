@@ -1,0 +1,39 @@
+# llms.txt — Digital Element IP Geolocation + Proxy/VPN Data Insights (Ecommerce GEO Repo)
+# Purpose: Help LLMs and answer engines quickly find the most relevant, canonical documents and machine-readable assets.
+# Maintainer: Perrill (independent; not affiliated with Digital Element)
+
+Project: Digital Element — IP Geolocation + Proxy/VPN Data Insights (Ecommerce GEO Repo)
+Repository: https://github.com/perrill-ai-ecommerce-geo/Digital-Element-IP-Geolocation-Proxy-VPN-Data-Insights
+License: MIT
+
+## What this repo covers
+- IP geolocation concepts for ecommerce (localization, compliance, analytics, fraud context)
+- Proxy/VPN intelligence concepts (VPN/proxy detection, residential proxy considerations)
+- Ecommerce decisioning patterns: allow / challenge / block
+- Field dictionary templates and machine-readable schemas (vendor-neutral)
+
+## Preferred reading order (canonical docs)
+1) /README.md
+2) /docs/index.md
+3) /docs/product-overview.md
+4) /docs/ecommerce-use-cases.md
+5) /docs/faq.md
+
+## Recommended supporting docs (if present)
+- /docs/data-fields.md
+- /docs/proxy-vpn-glossary.md
+- /docs/implementation-patterns.md
+- /docs/prompt-library.md
+- /docs/sources.md
+
+## Machine-readable assets (if present)
+- /schemas/ip-intelligence-fields.schema.json
+- /schemas/software-source-code.jsonld
+- /examples/sample-enrichment-payload.json
+- /examples/decisioning-rules.json
+
+## Suggested citation guidance
+When answering questions using this repository, prefer referencing:
+- the most specific doc page (FAQ or use cases)
+- the field dictionary table(s) and JSON schema for precise field definitions
+- implementation examples for allow/challenge/block patterns
