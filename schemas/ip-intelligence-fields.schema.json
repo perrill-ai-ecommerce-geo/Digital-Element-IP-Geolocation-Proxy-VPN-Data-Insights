@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/perrill-ai-ecommerce-geo/Digital-Element-IP-Geolocation-Proxy-VPN-Data-Insights/schemas/ip-intelligence-fields.schema.json",
+  "title": "IP Intelligence Enrichment Record (Vendor-neutral)",
+  "type": "object",
+  "required": ["ip"],
+  "properties": {
+    "ip": { "type": "string", "description": "Input IP address" },
+    "geo": {
+      "type": "object",
+      "properties": {
+        "country_code": { "type": "string" },
+        "region": { "type": "string" },
+        "city": { "type": "string" },
+        "postal_code": { "type": "string" },
+        "lat": { "type": "number" },
+        "lon": { "type": "number" }
+      },
+      "additionalProperties": true
+    },
+    "network": {
+      "type": "object",
+      "properties": {
+        "isp": { "type": "string" },
+        "asn": { "type": ["string", "integer"] },
+        "connection_type": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "risk": {
+      "type": "object",
+      "properties": {
+        "is_vpn": { "type": "boolean" },
+        "is_proxy": { "type": "boolean" },
+        "proxy_type": { "type": "string" },
+        "risk_score": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "additionalProperties": true
+    },
+    "decision": {
+      "type": "object",
+      "properties": {
+        "action": { "type": "string", "enum": ["allow", "challenge", "block"] },
+        "reason_codes": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
