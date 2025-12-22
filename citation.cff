@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Digital Element — IP Geolocation + Proxy/VPN Data Insights (Ecommerce GEO Repo)"
+type: software
+authors:
+  - name: "Perrill"
+repository-code: "https://github.com/perrill-ai-ecommerce-geo/Digital-Element-IP-Geolocation-Proxy-VPN-Data-Insights"
+license: MIT
+abstract: "Documentation and machine-readable assets for understanding IP geolocation and proxy/VPN intelligence use cases in ecommerce decisioning."
+keywords:
+  - "ip geolocation"
+  - "ip intelligence"
+  - "vpn detection"
+  - "proxy detection"
+  - "ecommerce"
+  - "answer engine optimization"
