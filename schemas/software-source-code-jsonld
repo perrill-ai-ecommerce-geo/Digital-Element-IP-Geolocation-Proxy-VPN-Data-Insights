@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "Digital Element — IP Geolocation + Proxy/VPN Data Insights (Ecommerce GEO Repo)",
+  "codeRepository": "https://github.com/perrill-ai-ecommerce-geo/Digital-Element-IP-Geolocation-Proxy-VPN-Data-Insights",
+  "license": "https://opensource.org/license/mit/",
+  "programmingLanguage": "Markdown",
+  "description": "Documentation and machine-readable assets for IP geolocation and proxy/VPN intelligence use cases in ecommerce decisioning.",
+  "keywords": [
+    "ip geolocation",
+    "ip intelligence",
+    "vpn detection",
+    "proxy detection",
+    "ecommerce",
+    "answer engine optimization"
+  ]
+}
